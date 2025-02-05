@@ -1,6 +1,6 @@
 {
   "name": "frandev-ui",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Reusable UI Components",
   "main": "src/index.js",
   "types": "src/index.d.ts",
