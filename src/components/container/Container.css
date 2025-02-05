@@ -1,0 +1,25 @@
+/* taken from tailwindcss */
+
+.container {
+    max-width: 72rem; /* sm:max-w-[72rem] */
+  }
+  
+  /* for laptops; should see how will it work on mobile devices */
+  @media (min-width: 1280px) {
+    .container {
+      max-width: 100vw; /* xl:max-w-screen-2xl */
+    }
+  }
+  
+  .container {
+    min-height: 8rem; /* min-h-[8rem] */
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); /* shadow-2xl */
+    background-color: #ffffff; /* bg-white */
+    border-radius: 0.5rem; /* rounded-lg */
+    margin: auto; /* m-auto */
+    text-align: center; /* text-center */
+    padding: 2rem; /* p-8 */
+    margin-top: 1rem; /* mt-4 */
+    margin-left: 0.75rem; /* mx-3 */
+    margin-right: 0.75rem; /* mx-3 */
+  }
